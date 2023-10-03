@@ -1,14 +1,15 @@
 {
   "name": "ceccoff-sonarqube-example",
   "version": "0.0.0",
+  "description": "Angular project with typescript + prettier + eslint + commitlint + lintstaged + githooks + sonarqube",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "husky install"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/common": "^16.2.0",
@@ -26,13 +27,33 @@
     "@angular-devkit/build-angular": "^16.2.4",
     "@angular/cli": "^16.2.4",
     "@angular/compiler-cli": "^16.2.0",
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/jasmine": "~4.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "lint-staged": "^14.0.1",
     "typescript": "~5.1.3"
-  }
+  },
+  "keywords": [
+    "typescript",
+    "prettier",
+    "eslint",
+    "commitlint",
+    "lintstaged",
+    "githooks",
+    "husky",
+    "best",
+    "practicies"
+  ],
+  "author": "DiguyaDeveloper",
+  "private": true
 }
