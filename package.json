@@ -8,6 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "sonar": "node sonar-project.js",
     "postinstall": "husky install"
   },
   "dependencies": {
@@ -41,6 +42,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "lint-staged": "^14.0.1",
+    "sonarqube-scanner": "^3.1.0",
     "typescript": "~5.1.3"
   },
   "keywords": [
