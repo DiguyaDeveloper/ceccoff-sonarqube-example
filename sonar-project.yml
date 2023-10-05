@@ -28,16 +28,16 @@ framework: angular
 # Configurações de análise
 # Defina as configurações específicas da análise do código-fonte
 analysis:
-  qualityProfile: "My Quality Profile" # Substitua pelo nome do perfil de qualidade do SonarQube
+  qualityProfile: 'My Quality Profile' # Substitua pelo nome do perfil de qualidade do SonarQube
 
 # Informações de conexão com o servidor do SonarQube
 # Certifique-se de que o servidor do SonarQube esteja configurado corretamente e acessível.
 sonarqube:
-  host: "http://localhost:9000" # URL do servidor do SonarQube
+  host: 'http://localhost:9000' # URL do servidor do SonarQube
 
 # Token de autenticação (opcional)
 token:
-  secure: "sqp_9e05b05f7909adc6fa2e7ba190c09c18a47f4d46" # Substitua pelo seu token de autenticação seguro
+  secure: 'sqp_9e05b05f7ABCD123456ABC190c09c18a47f4d46' # Substitua pelo seu token de autenticação seguro
 
 # Configurações de proxy (opcional)
 # proxy:
