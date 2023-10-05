@@ -171,5 +171,3 @@ git push origin minha-contribuicao
 Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
 
 ---
-
-Este README serve como um guia inicial. Personalize-o de acordo com as necessidades específicas do seu projeto. Boa prática de codificação!
