@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ceccoff-sonarqube-example';
+  
+  name() {
+    var name = 'diego';
+  }
 }
